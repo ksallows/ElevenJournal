@@ -29,7 +29,7 @@ function postJournal() {
             displayMine()
         })
         .catch(err => {
-            console.error(err)
+            console.log(err)
         })
 }
 
@@ -75,7 +75,7 @@ function editJournal(postId) {
                 displayMine();
             })
             .catch(err => {
-                console.error(err)
+                console.log(err)
             })
 
         card.removeChild(card.lastChild)
@@ -105,6 +105,6 @@ function deleteJournal(postId) {
             displayMine();
         })
         .catch(err => {
-            console.error(err)
+            console.log(err)
         })
 }
